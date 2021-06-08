@@ -15,7 +15,7 @@ mongoose.connect("mongodb://localhost/data", {useUnifiedTopology:true, useNewUrl
 }).catch((err) => {
     console.log("error:"+err)
 })
-require('./src/models/stock')
+require('./src/model/routes')
 
 //////////////////////////////////////////////
 
